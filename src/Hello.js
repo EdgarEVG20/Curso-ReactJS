@@ -6,7 +6,7 @@ const Hello = (props) => {
   return (
     <div>
       <p>
-        Hola {name} tienes {age} años.
+        Hola {name}, tienes {age} años.
       </p>
     </div>
   );
