@@ -1,11 +1,49 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
+.contenedorSaludo {
+  margin: 0px;
+  padding: 1px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.contenedorContador {
+  margin: 0px;
+  padding: 1px;
+  text-align: center;
+  background-color: red;
+}
 .btn {
   width: 200px;
   padding: 5px;
   display: block;
   margin: 20px auto;
+}
+
+.contenedorNotas {
+  margin: 0px;
+  padding: 1px;
+  text-align: center;
+  background-color: orange;
+}
+.contenedorNotas li {
+  text-align: left;
+}
+
+.contenedorCursos {
+  margin: 0px;
+  padding: 1px;
+  text-align: center;
+  background-color: rgb(33, 155, 29);
+}
+.contenedorCursos p,
+h2,
+h3 {
+  text-align: left;
+}
+.contenedorCursos h2 {
+  margin-top: 30px;
 }

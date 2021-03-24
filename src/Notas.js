@@ -16,7 +16,7 @@ const Notas = (props) => {
   //Ecmascript 6
   //Map
   return (
-    <div>
+    <div className="contenedorNotas">
       <h1>Notas</h1>
       <ul>
         {notes.map((noteArray) => (

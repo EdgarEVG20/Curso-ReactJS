@@ -30,7 +30,8 @@ const Counter = () => {
   //});
 
   return (
-    <Fragment>
+    <div className="contenedorContador">
+      <h1>Contador</h1>
       <button className="btn" onClick={() => aumentar()}>
         Aumentar
       </button>
@@ -38,7 +39,7 @@ const Counter = () => {
       <button className="btn" onClick={() => disminuir()}>
         Disminuir
       </button>
-    </Fragment>
+    </div>
   );
 };
 
