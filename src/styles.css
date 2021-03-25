@@ -74,3 +74,21 @@ h3 {
   display: block;
   margin: 10px auto;
 }
+.listaPersonas {
+  display: inline-block;
+  width: 100px;
+}
+
+.listaPersonas p {
+  font-weight: bold;
+  display: inline;
+  font-size: 1.4em;
+}
+
+.ape {
+  margin-left: 70px;
+}
+
+.idNum {
+  margin-right: 70px;
+}
