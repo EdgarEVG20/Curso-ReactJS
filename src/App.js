@@ -1,9 +1,10 @@
 import "./styles.css";
 import Hola from "./Hello";
 import Contador from "./Counter";
-import Cursos from "./Cursos";
-import Notas from "./Notas.js";
-
+import Cursos from "./Courses";
+import Notas from "./Notes";
+import Condicional from "./Conditional";
+import Contactos from "./Contacts";
 //Const es un tipo de declaración de variable
 //que nos dice que la variable es la misma
 //en todo su tiempo de vida.
@@ -88,6 +89,10 @@ export default function App() {
       <Notas notes={notes} />
 
       <Cursos courses={courses} />
+
+      <Condicional totalMessages={1} totalSneakers={21} />
+
+      <Contactos />
     </div>
   );
 }

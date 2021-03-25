@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cursos = (props) => {
+const Courses = (props) => {
   const { courses } = props;
 
   return (
@@ -40,4 +40,4 @@ const Cursos = (props) => {
   );
 };
 
-export default Cursos;
+export default Courses;

@@ -5,19 +5,19 @@
 
 .contenedorSaludo {
   margin: 0px;
-  padding: 1px;
+  padding: 10px;
   text-align: center;
   background-color: lightblue;
 }
 
 .contenedorContador {
   margin: 0px;
-  padding: 1px;
+  padding: 10px;
   text-align: center;
   background-color: red;
 }
 .btn {
-  width: 200px;
+  width: 150px;
   padding: 5px;
   display: block;
   margin: 20px auto;
@@ -25,7 +25,7 @@
 
 .contenedorNotas {
   margin: 0px;
-  padding: 1px;
+  padding: 10px;
   text-align: center;
   background-color: orange;
 }
@@ -35,7 +35,7 @@
 
 .contenedorCursos {
   margin: 0px;
-  padding: 1px;
+  padding: 10px;
   text-align: center;
   background-color: rgb(33, 155, 29);
 }
@@ -46,4 +46,31 @@ h3 {
 }
 .contenedorCursos h2 {
   margin-top: 30px;
+}
+
+.contenedorConditional {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(173, 189, 33);
+}
+
+.contenedorContactos {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(25, 86, 155);
+}
+.inNombre {
+  margin: 5px;
+  padding: 10px;
+}
+.inNumero {
+  margin: 5px;
+  padding: 10px;
+}
+.btnAgregar {
+  padding: 8px;
+  display: block;
+  margin: 10px auto;
 }
