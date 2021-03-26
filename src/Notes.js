@@ -73,8 +73,7 @@ const Notes = (props) => {
     <div className="contenedorNotas">
       <h1>Notas</h1>
       <button onClick={handleButton}>
-        Mostrar
-        {showImportant ? "todos" : "importantes"}
+        Mostrar {showImportant ? "todos" : "importantes"}
       </button>
       <ul>
         {notasAMostrar.map((noteArray) => (
