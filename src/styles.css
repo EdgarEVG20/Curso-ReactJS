@@ -7,14 +7,14 @@
   margin: 0px;
   padding: 10px;
   text-align: center;
-  background-color: lightblue;
+  background-color: rgb(255, 0, 0);
 }
 
 .contenedorContador {
   margin: 0px;
   padding: 10px;
   text-align: center;
-  background-color: red;
+  background-color: rgb(167, 131, 15);
 }
 .btn {
   width: 150px;
@@ -27,7 +27,7 @@
   margin: 0px;
   padding: 10px;
   text-align: center;
-  background-color: orange;
+  background-color: rgb(153, 163, 13);
 }
 .contenedorNotas li {
   text-align: left;
@@ -37,7 +37,7 @@
   margin: 0px;
   padding: 10px;
   text-align: center;
-  background-color: rgb(33, 155, 29);
+  background-color: rgb(14, 153, 158);
 }
 .contenedorCursos p,
 h2,
@@ -52,14 +52,14 @@ h3 {
   margin: 0px;
   padding: 10px;
   text-align: center;
-  background-color: rgb(173, 189, 33);
+  background-color: rgb(17, 80, 153);
 }
 
 .contenedorContactos {
   margin: 0px;
   padding: 10px;
   text-align: center;
-  background-color: rgb(25, 86, 155);
+  background-color: rgb(32, 9, 117);
 }
 .inNombre {
   margin: 5px;
@@ -91,4 +91,26 @@ h3 {
 
 .idNum {
   margin-right: 70px;
+}
+
+.contenedorAsincrono {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(134, 13, 124);
+}
+
+.contenedorTodo {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(134, 17, 17);
+}
+.contenedorTodo p {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.contenedorTodo td,
+p {
+  text-align: left;
 }

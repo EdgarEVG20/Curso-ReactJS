@@ -5,6 +5,8 @@ import Cursos from "./Courses";
 import Notas from "./Notes";
 import Condicional from "./Conditional";
 import Contactos from "./Contacts";
+import Asincrono from "./Asincrono";
+import Todo from "./To-do";
 //Const es un tipo de declaración de variable
 //que nos dice que la variable es la misma
 //en todo su tiempo de vida.
@@ -93,6 +95,10 @@ export default function App() {
       <Condicional totalMessages={1} totalSneakers={21} />
 
       <Contactos />
+
+      <Asincrono />
+
+      <Todo />
     </div>
   );
 }
