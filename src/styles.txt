@@ -1,0 +1,116 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.contenedorSaludo {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+}
+
+.contenedorContador {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(167, 131, 15);
+}
+.btn {
+  width: 150px;
+  padding: 5px;
+  display: block;
+  margin: 20px auto;
+}
+
+.contenedorNotas {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(153, 163, 13);
+}
+.contenedorNotas li {
+  text-align: left;
+}
+
+.contenedorCursos {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(14, 153, 158);
+}
+.contenedorCursos p,
+h2,
+h3 {
+  text-align: left;
+}
+.contenedorCursos h2 {
+  margin-top: 30px;
+}
+
+.contenedorConditional {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(17, 80, 153);
+}
+
+.contenedorContactos {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(32, 9, 117);
+}
+.inNombre {
+  margin: 5px;
+  padding: 10px;
+}
+.inNumero {
+  margin: 5px;
+  padding: 10px;
+}
+.btnAgregar {
+  padding: 8px;
+  display: block;
+  margin: 10px auto;
+}
+.listaPersonas {
+  display: inline-block;
+  width: 100px;
+}
+
+.listaPersonas p {
+  font-weight: bold;
+  display: inline;
+  font-size: 1.4em;
+}
+
+.ape {
+  margin-left: 70px;
+}
+
+.idNum {
+  margin-right: 70px;
+}
+
+.contenedorAsincrono {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(134, 13, 124);
+}
+
+.contenedorTodo {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(134, 17, 17);
+}
+.contenedorTodo p {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.contenedorTodo td,
+p {
+  text-align: left;
+}
